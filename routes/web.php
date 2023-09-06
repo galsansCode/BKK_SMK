@@ -38,7 +38,7 @@ Route::resource('/informasi', InformasiController::class);
 
 // Login
 Auth::routes();
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/dashboard', [DashboardController::class, 'index'])->middleware('auth');
 
 Route::group(['middleware'  => 'checkRole:admin,pendaftar'], function () {

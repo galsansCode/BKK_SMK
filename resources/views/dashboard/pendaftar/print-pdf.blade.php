@@ -59,7 +59,7 @@
                     style="width:100px; margin-top: 10px;" height="60px">
             </div>
             <div class="column">
-                <h2>BKK SMK 2 JAKARTA</h2>
+                <h2>BKK SMK</h2>
             </div>
             <div class="column">
                 <img src="data:image/png;base64,{{ $logoSekolah }}" alt="Logo Instansi" style="width:100px; "

@@ -84,7 +84,7 @@
                     style="width:100px; margin-top: 40px;" height="60px">
             </div>
             <div class="column">
-                <h2>BKK SMK 2 JAKARTA</h2>
+                <h2>BKK SMK</h2>
             </div>
             <div class="column">
                 <img src="data:image/png;base64,{{ $logoSekolah }}" alt="Logo Instansi"
@@ -106,7 +106,7 @@
             </div>
             <div class="column2">
                 <img src="data:image/png;base64,{{ $fotoPeserta }}" alt="Foto Peserta"
-                    style="width:100px; height:100px;">
+                    style="width:100px; height:100px; border-radius:10px;">
             </div>
         </div>
 

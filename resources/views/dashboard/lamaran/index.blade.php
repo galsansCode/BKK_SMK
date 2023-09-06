@@ -8,10 +8,10 @@
                     <strong>Tekan Tombol</strong> &nbsp; <button class="btn btn-success"><i
                             class="bi bi-printer"></i></button>
                     &nbsp; <strong>Untuk Mencetak Kartu Peserta</strong><br>
-                    <div class="btn btn-warning mt-3" role="alert">
+                    {{-- <div class="btn btn-warning mt-3" role="alert">
                         <h3>Sebelum Mencetak Kartu Peserta Mohon Lengkapi Terlebih Dahulu Foto Profile Anda</h3>
                     </div><br>
-                    <a href="/dashboard/profil/" class="btn btn-info mt-3">Profile</a>
+                    <a href="/dashboard/profil/" class="btn btn-info mt-3">Profile</a> --}}
                 </div>
 
             </div>
@@ -38,8 +38,8 @@
                                                     <a href="/dashboard/lamaran/cetak/{{ $list->lowongan->slug }}"
                                                         target="_blank" class="btn btn-success"><i
                                                             class="bi bi-printer"></i></a>
-                                                    <a href="/dashboard/lamaran/edit/{{ $list->lowongan->slug }}"
-                                                        class="btn btn-warning"><i class="bi bi-pencil-fill"></i></a>
+                                                    {{-- <a href="/dashboard/lamaran/edit/{{ $list->lowongan->slug }}"
+                                                        class="btn btn-warning"><i class="bi bi-pencil-fill"></i></a> --}}
                                                     <form id="{{ $list->id }}"
                                                         action="/dashboard/lamaran/{{ $list->id }}" method="POST"
                                                         class="d-inline">
